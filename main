@@ -1,0 +1,30 @@
+
+void main() {
+
+
+    System.out.println("Circle");
+    Circle c1 = new Circle(10);
+    Circle c2 = new Circle(5);
+    Circle c3 = new Circle(45);
+    System.out.println("Area of a Circle is: "+c1.calculateArea());
+
+
+    System.out.println("Rectangle");
+    Rectangle r1 = new Rectangle(10.5,5.5);
+    Rectangle r2 = new Rectangle(14,55);
+    Rectangle r3 = new Rectangle(14,7);
+
+
+
+    System.out.println(r1.calculateArea());
+    System.out.println(r1.calculateCircumfernce());
+
+    System.out.println("Triangle");
+    Triangle t1 = new Triangle(55 , 53);
+    Triangle t2 = new Triangle(77 , 22);
+    Triangle t3 = new Triangle(5 , 11);
+
+
+    System.out.println(t1.calculateArea());
+    System.out.println(t1.calculateCircumfernce());
+}
